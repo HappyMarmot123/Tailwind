@@ -18,3 +18,7 @@ install offcial document (https://tailwindcss.com/docs/installation)
 반응형 디자인 지원
 커스터마이징 가능
 Not need CSS!
+
+### Wanna use the auto-complete 
+VSC 확장팩 설치: Tailwind CSS IntelliSense
+
