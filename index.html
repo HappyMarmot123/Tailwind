@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              marmot: "#8b4513",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline text-marmot">Hello world!</h1>
+    <!-- rem px -->
+    <div class="w-24 bg-gray-300">1111</div>
+    <!-- bg, border, border-color, rounded -->
+    <div class="bg-pink-400 w-14 h-14 border-8 border-black rounded-[25px]">
+      1111
+    </div>
+    <!-- width, height, padding, margin -->
+    <!-- mx: align, my: vertical -->
+    <div class="w-64 h-64 bg-pink-600 p-4 m-4 mx-10 my-20">1111</div>
+    <!-- text-color, text-size, font-bold, cursor -->
+    <div
+      class="w-64 h-64 bg-black text-pink-400 text-[50px] font-[100] cursor-pointer"
+    >
+      1111
+    </div>
+    <!-- flex, ,justify, items, gap, hover, transition -->
+    <div
+      class="w-64 h-64 bg-pink-400 text-[25px] text-black flex justify-center items-center"
+    >
+      1111
+    </div>
+    <div
+      class="w-[400px] h-[400px] bg-black flex flex-col items-center justify-center gap-10"
+    >
+      <div class="w-64 h-64 hover:bg-purple-400 transition bg-white"></div>
+      <div class="w-64 h-64 hover:bg-purple-400 transition bg-white"></div>
+    </div>
+  </body>
+</html>
