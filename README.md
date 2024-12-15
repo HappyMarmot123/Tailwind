@@ -19,6 +19,19 @@ install offcial document (https://tailwindcss.com/docs/installation)
 커스터마이징 가능
 Not need CSS!
 
-### Wanna use the auto-complete 
-VSC 확장팩 설치: Tailwind CSS IntelliSense
+### 반응형 클래스 지원,
 
+Breakpoint prefix Minimum width CSS
+sm 640px @media (min-width: 640px) { ... }
+md 768px @media (min-width: 768px) { ... }
+lg 1024px @media (min-width: 1024px) { ... }
+xl 1280px @media (min-width: 1280px) { ... }
+2xl 1536px @media (min-width: 1536px) { ... }
+
+### Hover, Focus, & Other States
+
+https://v2.tailwindcss.com/docs/hover-focus-and-other-states
+
+### Wanna use the auto-complete
+
+VSC 확장팩 설치: Tailwind CSS IntelliSense
